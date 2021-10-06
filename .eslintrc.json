@@ -24,6 +24,7 @@
         "prettier/prettier": 2,
         "no-unused-vars": "warn",
         "no-undef": "warn",
+        "react/prop-types": "warn",
         "react/jsx-filename-extension": [
             1,
             {
