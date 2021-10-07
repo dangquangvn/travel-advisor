@@ -21,7 +21,12 @@
     ],
     "rules": {
         "no-console": 1,
-        "prettier/prettier": 2,
+        "prettier/prettier": [
+            2,
+            {
+                "endOfLine": "auto"
+            }
+        ],
         "no-unused-vars": "warn",
         "no-undef": "warn",
         "react/prop-types": "warn",
