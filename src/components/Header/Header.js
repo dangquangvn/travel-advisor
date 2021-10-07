@@ -15,7 +15,7 @@ const Header = () => {
   const classes = useStyles();
   const theme = createTheme();
   return (
-    <AppBar>
+    <AppBar position="static">
       <Toolbar className={classes.toolbar}>
         <Typography variant="h5" className={classes.title}>
           Travel Advisor
@@ -36,7 +36,8 @@ const Header = () => {
                 input: classes.inputInput
               }}
               style={{
-                color: 'white'
+                color: 'white',
+                paddingLeft: `calc(1em + ${theme.spacing(4)}px)`
               }}
             />
           </div>
